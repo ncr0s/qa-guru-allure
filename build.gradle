@@ -3,9 +3,6 @@ plugins {
     id 'io.qameta.allure' version '2.11.2'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
-
 allure {
     report { // report version section
         version.set("2.20.1")
