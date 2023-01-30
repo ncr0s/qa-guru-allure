@@ -18,13 +18,14 @@ jobs:
       - uses: Xotabu4/selenoid-github-action@v2
       # running tests
       - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
-      # add allure
+      # download tests history
       - uses: actions/checkout@v2
         if: always()
         continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
+      # generating allure report
       - uses: simple-elf/allure-report-action@master
         if: always()
         with:
@@ -32,6 +33,7 @@ jobs:
           allure_results: build/allure-results
           allure_report: allure-report
           allure_history: allure-history
+      # publish allure report
       - uses: peaceiris/actions-gh-pages@v2
         if: always()
         env:
