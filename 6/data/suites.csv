@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 30 18:29:15 GMT 2023","Mon Jan 30 18:29:18 GMT 2023","3285","","qa.guru.allure.SelenideTest","","qa.guru.allure.SelenideTest","testIssueSearch","Issue search allure test on pure selenide with listener",""
+"passed","Mon Jan 30 18:29:18 GMT 2023","Mon Jan 30 18:29:21 GMT 2023","3036","","qa.guru.allure.StepsTest","","qa.guru.allure.StepsTest","testAnnotatedStep","Issue search allure test with @Steps annotation",""
+"passed","Mon Jan 30 18:29:15 GMT 2023","Mon Jan 30 18:29:15 GMT 2023","1","","qa.guru.allure.LabelsTest","","qa.guru.allure.LabelsTest","testAnnotatedStep","Create Issue for authorized user",""
+"passed","Mon Jan 30 18:29:08 GMT 2023","Mon Jan 30 18:29:12 GMT 2023","3811","","qa.guru.allure.AttachmentsTest","","qa.guru.allure.AttachmentsTest","testLambdaAttachments","Attach page source",""
+"passed","Mon Jan 30 18:29:12 GMT 2023","Mon Jan 30 18:29:15 GMT 2023","2391","","qa.guru.allure.AttachmentsTest","","qa.guru.allure.AttachmentsTest","testAnnotatedAttachments","Attach screenshot",""
+"passed","Mon Jan 30 18:29:15 GMT 2023","Mon Jan 30 18:29:15 GMT 2023","0","","qa.guru.allure.LabelsTest","","qa.guru.allure.LabelsTest","testStaticLabels","Create Issue for authorized user",""
+"passed","Mon Jan 30 18:29:21 GMT 2023","Mon Jan 30 18:29:23 GMT 2023","1969","","qa.guru.allure.StepsTest","","qa.guru.allure.StepsTest","testLambdaStep","Issue search allure test with lambda steps",""
